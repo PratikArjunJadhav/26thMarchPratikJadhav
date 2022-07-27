@@ -22,6 +22,7 @@ public class BaseNew {
 	driver.get(UtilityProp.getDataFromPropertyFile("URL"));
 	Reporter.log("Launching browser",true);
 	driver.manage().timeouts().implicitlyWait(Duration.ofMillis(1000));
+	System.out.println("welcome");
 
 }
 }
